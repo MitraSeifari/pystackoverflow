@@ -1,6 +1,7 @@
 from telebot import types
 import emoji
 
+
 def create_keyboard(*keys, row_width=2, resize_keyboard=True):
     """
     Create a keyboard from a list of keys.
